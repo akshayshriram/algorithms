@@ -1,3 +1,9 @@
+# Kadane's Algorithm => "Maximum Subarray Problem." 
+# This problem involves finding the contiguous subarray within a one-dimensional array of numbers that has the largest sum
+# Time Complexity: O(N), as the algorithm iterates through the array only once.
+# Space Complexity: O(1), as it uses a constant amount of extra space for variables. 
+
+
 nums = [1]
 
 currentSum = nums[0]
