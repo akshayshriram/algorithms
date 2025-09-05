@@ -4,15 +4,12 @@
 # Space Complexity: O(1), as it uses a constant amount of extra space for variables. 
 
 
-nums = [1]
+nums = [-3,3,19,7]
 
 currentSum = nums[0]
 overallSum = nums[0]
 
 for i in range(1,len(nums)):
-    if len(nums) == 0:
-        currentSum, overallSum = nums[i]
-        break
     if currentSum + nums[i] > nums[i]:
         currentSum = currentSum + nums[i]
     else:
